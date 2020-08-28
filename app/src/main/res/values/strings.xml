@@ -4,4 +4,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="aboutme_text">aboutme</string>
     <string name="contact_text" />
+    <string name="contact_txet">contact</string>
+    <string name="aboutmeFragment">aboutme</string>
+    <string name="contactFragment">contact</string>
 </resources>

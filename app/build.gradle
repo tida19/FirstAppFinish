@@ -47,4 +47,6 @@ dependencies {
     def navigation_Version = '2.3.0'
     implementation "android.arch.navigation:navigation-fragment-ktx:$navigation_Version"
     implementation "android.arch.navigation:navigation-ui-ktx:$navigation_Version"
+
+
 }
