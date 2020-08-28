@@ -7,4 +7,6 @@
     <string name="contact_txet">contact</string>
     <string name="aboutmeFragment">aboutme</string>
     <string name="contactFragment">contact</string>
+    <string name="SENT">SENT</string>
+    <string name="HELLO">HELLO</string>
 </resources>

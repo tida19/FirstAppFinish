@@ -17,7 +17,7 @@ abstract class ContactDatabase : RoomDatabase(){
                 if (instance == null) {
                     instance = Room.databaseBuilder(
                         context.applicationContext,
-                        com.example.firstappfinish.database.ContactDatabase::class.java,
+                        ContactDatabase::class.java,
                         "database"
                     )
                         .fallbackToDestructiveMigration()
