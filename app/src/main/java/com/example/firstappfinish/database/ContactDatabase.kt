@@ -6,18 +6,18 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 
 @Database(entities = [Contact::class], version = 1, exportSchema = false)
-abstract class Database : RoomDatabase(){
+abstract class ContactDatabase : RoomDatabase(){
     abstract val databaseDao: DatabaseDAO
     companion object{
         @Volatile
-        private var INSTANCE: com.example.firstappfinish.database.Database? = null
-        fun getInstance(context: Context): com.example.firstappfinish.database.Database {
+        private var INSTANCE: com.example.firstappfinish.database.ContactDatabase? = null
+        fun getInstance(context: Context): com.example.firstappfinish.database.ContactDatabase {
             synchronized(this) {
                 var instance = INSTANCE
                 if (instance == null) {
                     instance = Room.databaseBuilder(
                         context.applicationContext,
-                        com.example.firstappfinish.database.Database::class.java,
+                        com.example.firstappfinish.database.ContactDatabase::class.java,
                         "database"
                     )
                         .fallbackToDestructiveMigration()
