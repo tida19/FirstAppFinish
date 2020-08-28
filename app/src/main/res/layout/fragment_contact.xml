@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
+        <variable
+            name="contactViewModel"
+            type="com.example.firstappfinish.ContactViewModel" />
     </data>
 
     <FrameLayout
