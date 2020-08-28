@@ -18,28 +18,29 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:gravity="center"
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/editTextTextEmailAddress3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text" />
+                android:inputType="textEmailAddress" />
 
             <EditText
-                android:id="@+id/editTextTextPersonPhone"
+                android:id="@+id/editTextPhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text" />
+                android:inputType="phone" />
 
             <Button
                 android:id="@+id/buttonInsert"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="@{()->contactViewModel.onContactAdd()}"
-                android:text="Button" />
+                android:text="@string/SENT" />
 
             <TextView
                 android:id="@+id/textview"

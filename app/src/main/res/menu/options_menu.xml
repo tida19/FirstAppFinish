@@ -3,9 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/AboutMe"
-        android:title="@string/aboutmeFragment" />
+        android:id="@+id/aboutmeFragment"
+        android:title="About me" />
     <item
-        android:id="@+id/Contact"
-        android:title="@string/contactFragment" />
+        android:id="@+id/contactFragment"
+        android:title="Contact" />
 </menu>
