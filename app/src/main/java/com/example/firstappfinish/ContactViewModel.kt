@@ -1,7 +1,8 @@
-package com.example.firstappfinish.database
+package com.example.firstappfinish
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
+import com.example.firstappfinish.database.DatabaseDAO
 import com.example.firstappfinish.databinding.FragmentContactBinding
 
 class ContactViewModel(
